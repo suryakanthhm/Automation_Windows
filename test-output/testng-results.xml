@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63143" started-at="2017-01-16T09:53:35Z" finished-at="2017-01-16T09:54:38Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="61291" started-at="2017-01-16T09:53:35Z" finished-at="2017-01-16T09:54:37Z">
+      <class name="scripts.ValidLoginLogout">
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:scripts.ValidLoginLogout@61443d8f]" name="preConditions" is-config="true" duration-ms="34103" started-at="2017-01-16T15:23:35Z" finished-at="2017-01-16T15:24:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:scripts.ValidLoginLogout@61443d8f]" name="testValidLoginLogout" duration-ms="24820" started-at="2017-01-16T15:24:09Z" finished-at="2017-01-16T15:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCoditions()[pri:0, instance:scripts.ValidLoginLogout@61443d8f]" name="postCoditions" is-config="true" duration-ms="2338" started-at="2017-01-16T15:24:34Z" finished-at="2017-01-16T15:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCoditions -->
+      </class> <!-- scripts.ValidLoginLogout -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="63143" started-at="2017-01-16T09:53:35Z" finished-at="2017-01-16T09:54:38Z">
+      <class name="scripts.ValidLoginLogout">
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:scripts.ValidLoginLogout@2ac1fdc4]" name="preConditions" is-config="true" duration-ms="43519" started-at="2017-01-16T15:23:35Z" finished-at="2017-01-16T15:24:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:scripts.ValidLoginLogout@2ac1fdc4]" name="testValidLoginLogout" duration-ms="19534" started-at="2017-01-16T15:24:19Z" finished-at="2017-01-16T15:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCoditions()[pri:0, instance:scripts.ValidLoginLogout@2ac1fdc4]" name="postCoditions" is-config="true" duration-ms="60" started-at="2017-01-16T15:24:38Z" finished-at="2017-01-16T15:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCoditions -->
+      </class> <!-- scripts.ValidLoginLogout -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
